@@ -1,5 +1,5 @@
 {
-  "name": "bandle",
+  "name": "@bandlejs/core",
   "version": "1.1.1",
   "description": "",
   "main": "main.js",
