@@ -106,5 +106,6 @@ for (const file of files) {
 
   // Zapisz wynik
   fs.writeFileSync(outputPath, html);
+  fs.writeFileSync("ping.txt", crypto.randomUUID())
   console.log("Generated:", outputPath);
 }
