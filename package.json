@@ -2,10 +2,12 @@
   "name": "@bandlejs/core",
   "version": "1.1.16",
   "description": "Bandle is my original 2D game engine written in AssemblyScript and TypeScript, designed to run in a web environment. In the future, I plan to add a native backend for building standalone `.exe` applications, which will require a dedicated SDK.",
-  "main": "main.js",
+  "main": "./dist/cjs/main.js",
+  "module": "./dist/esm/main.js",
   "type": "module",
+  "types": "./dist/types",
   "scripts": {
-    "build": "",
+    "build": "node build.js",
     "build:docs": "node build.docs.js"
   },
   "repository": {
@@ -27,7 +29,8 @@
   },
   "homepage": "https://github.com/bandlejs/core#readme",
   "devDependencies": {
-    "markdown-it": "^14.1.1"
+    "markdown-it": "^14.1.1",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "jsdom": "^29.0.0"

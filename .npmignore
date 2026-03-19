@@ -6,3 +6,5 @@ public.ps1
 public.sh
 docs/
 build.docs.js
+src/
+build.js
