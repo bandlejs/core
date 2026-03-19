@@ -6,9 +6,9 @@ echo Tworzenie commita...
 git commit -m "CI/CD auto publish"
 
 echo Podbijanie wersji...
-npm version patch
+call npm version patch
 
 echo Wysylanie commita i tagow...
-git push --follow-tags
+ call git push --follow-tags
 
 echo Gotowe!
