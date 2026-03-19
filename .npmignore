@@ -4,3 +4,5 @@ node_modules/
 public.bat
 public.ps1
 public.sh
+docs/
+build.docs.js
