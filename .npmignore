@@ -1,0 +1,6 @@
+.github/
+node_modules/
+.gitignore
+public.bat
+public.ps1
+public.sh
