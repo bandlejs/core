@@ -1,6 +1,6 @@
 {
   "name": "bandle",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "bandlejs"
   ],
   "author": "bandlejs",
-  "contributors": ["milexisteam-crypto", "filutkowski "],
+  "contributors": [
+    "milexisteam-crypto",
+    "filutkowski "
+  ],
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/bandlejs/core/issues"
