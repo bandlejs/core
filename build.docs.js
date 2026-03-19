@@ -1,7 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import MarkdownIt from "markdown-it";
-import { JSDOM } from "jsdom";
 
 const md = new MarkdownIt({
   html: true,
