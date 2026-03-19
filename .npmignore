@@ -7,4 +7,5 @@ public.sh
 docs/
 build.docs.js
 src/
-build.js
+build.mjs
+ping.txt
